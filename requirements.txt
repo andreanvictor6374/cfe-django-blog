@@ -14,6 +14,6 @@ django-storages
 # mysqlclient
 
 ## uncomment for postgresql databases
-psycopg2
+# psycopg2
 # only uncomment if `psycopg2` doesn't install
 psycopg2-binary

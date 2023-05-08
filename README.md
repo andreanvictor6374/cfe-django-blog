@@ -187,7 +187,7 @@ In our case, `docker-compose.yaml` has three profiles:
 To run any given profile you just do:
 
 ```
-docker compose --profile mysql up
+docker-compose --profile mysql up
 ```
 
 > Just replace `--profile postgres` if you want to use that one.
@@ -201,3 +201,9 @@ docker compose --profile mysql up -d
 ```
 
 > Again, just replace `--profile postgres` if you want to use that one.
+
+## Running docker 
+```shell
+# build docker image 
+docker build -f Dockerfile -t myproject .
+```
